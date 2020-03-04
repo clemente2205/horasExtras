@@ -8,12 +8,14 @@ namespace Modal
 
         public string Obra { get; set; }
 
+        public string Motivo { get; set; }
+
         public DateTime Fecha { get; set; }
 
         public DateTime horaInicio { get; set; }
 
         public DateTime horaFin { get; set; }
 
-        public DateTime tiempoExtraReal { get; set; }
+        public int tiempoExtraReal { get; set; }
     }
 }
